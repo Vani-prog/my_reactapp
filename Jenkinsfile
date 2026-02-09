@@ -1,9 +1,9 @@
 pipeline {
     agent any
 
-    triggers {
-        cron('H/5 * * * *')   // every 5 minutes (better than every minute)
-    }
+    // triggers {
+    //     cron('H/5 * * * *')   // every 5 minutes (better than every minute)
+    // }
 
     environment {
         IMAGE_NAME = "vanireddy2025/my_reactapp"
